@@ -4,7 +4,6 @@
 				
                 wp_enqueue_style('bootstrap', get_template_directory_uri() .'/css/bootstrap.css');
                 wp_enqueue_style('default', get_template_directory_uri() . '/css/purple.css');
-                wp_enqueue_style('latest_posts', get_template_directory_uri() . '/css/latest_posts.css');
                 wp_enqueue_style('enigma-theme', get_template_directory_uri() . '/css/enigma-theme.css');
                 wp_enqueue_style('media-responsive', get_template_directory_uri() . '/css/media-responsive.css');
                 wp_enqueue_style('animations', get_template_directory_uri() . '/css/animations.css');

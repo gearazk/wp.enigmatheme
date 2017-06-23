@@ -7,37 +7,43 @@
 						<li class="breadcrumbs__item">
 							<a href="/penny-stocks" data-ng-click="to('.js-breadcrumbs')" class="breadcrumbs__link breadcrumbs__link_order_first">
 								<i class="breadcrumbs__icon glph-file"></i>
-								<p data-translate="frontend.index.breadcrumbs.penny" class="breadcrumbs__text ng-scope">Báo cáo<br>giao dịch đầu tư</p>
+								<p data-translate="frontend.index.breadcrumbs.penny" class="breadcrumbs__text ng-scope">What are<br> Penny Stocks</p>
 							</a>
 						</li>
 						<li class="breadcrumbs__item">
 							<a href="/reports" data-ng-click="to('.js-breadcrumbs')" class="breadcrumbs__link">
 								<i class="breadcrumbs__icon glph-pad"></i>
-								<p data-translate="frontend.index.breadcrumbs.reports" class="breadcrumbs__text ng-scope">Đa dạng<br>danh mục đầu tư</p>
+								<p data-translate="frontend.index.breadcrumbs.reports" class="breadcrumbs__text ng-scope">Reports<br> on Trading</p>
 							</a>
 						</li>
 						<li class="breadcrumbs__item">
 							<a href="/products" data-ng-click="to('.js-breadcrumbs')" class="breadcrumbs__link">
 								<i class="breadcrumbs__icon glph-bag"></i>
-								<p data-translate="frontend.index.breadcrumbs.portfolios" class="breadcrumbs__text ng-scope">Phát triển đối tác<br>10% hoa hồng</p>
+								<p data-translate="frontend.index.breadcrumbs.portfolios" class="breadcrumbs__text ng-scope">Investment<br> Portfolios</p>
 							</a>
 						</li>
 						<li class="breadcrumbs__item">
 							<a href="/advantages" data-ng-click="to('.js-breadcrumbs')" class="breadcrumbs__link">
-								<i class="breadcrumbs__icon glph-zerro-percent"></i>
-								<p data-translate="frontend.index.breadcrumbs.partnership" class="breadcrumbs__text ng-scope">Lợi nhuận trên tháng<br></p>
+								<i class="breadcrumbs__icon glph-handshake"></i>
+								<p data-translate="frontend.index.breadcrumbs.partnership" class="breadcrumbs__text ng-scope">Benefits<br> of Cooperation</p>
 							</a>
 						</li>
 						<li class="breadcrumbs__item">
 							<a href="/transfer" data-ng-click="to('.js-breadcrumbs')" class="breadcrumbs__link">
-								<i class="breadcrumbs__icon glph-handshake"></i>
-								<p data-translate="frontend.index.breadcrumbs.commission" class="breadcrumbs__text ng-scope">Bảo hiểm danh<br>mục đầu tư</p>
+								<i class="breadcrumbs__icon glph-zerro-percent"></i>
+								<p data-translate="frontend.index.breadcrumbs.commission" class="breadcrumbs__text ng-scope">0% Commission for<br>Deposits and Withdrawals</p>
 							</a>
 						</li>
 						<li class="breadcrumbs__item">
 							<a href="/promotions/bonus" data-ng-click="to('.js-breadcrumbs')" class="breadcrumbs__link">
 								<i class="breadcrumbs__icon glph-border-gift"></i>
-								<p data-translate="frontend.index.breadcrumbs.bonus" class="breadcrumbs__text ng-scope">Đa quốc gia</p>
+								<p data-translate="frontend.index.breadcrumbs.bonus" class="breadcrumbs__text ng-scope">Bonus<br> from $5 to $500</p>
+							</a>
+						</li>
+						<li class="breadcrumbs__item">
+							<a href="/representative" data-ng-click="to('.js-breadcrumbs')" class="breadcrumbs__link breadcrumbs__link_order_last">
+								<i class="breadcrumbs__icon glph-city"></i>
+								<p data-translate="frontend.index.breadcrumbs.branch" class="breadcrumbs__text ng-scope">Regional<br> Office</p>
 							</a>
 						</li>
 					</ul>

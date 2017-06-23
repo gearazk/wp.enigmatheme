@@ -1987,6 +1987,9 @@ margin-bottom: 20px;
 }
 
 
+.enigma_footer_widget_area{
+	background: #262626;
+}
 .login_btn{
 	width: auto !important;
 	height: auto !important;

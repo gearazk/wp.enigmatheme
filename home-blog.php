@@ -14,7 +14,7 @@ if($wl_theme_options['blog_title'] !='') { ?>
 	<div class="container">	
 	<div class="row" id="enigma_blog_section">
 	<?php 	if ( have_posts()) : 			
-			$posts_count = wp_count_posts()->publish;
+			$posts_count =wp_count_posts()->publish;
 			$args = array( 'post_type' => 'post','posts_per_page' => $posts_count ,'ignore_sticky_posts' => 1);		
 			$post_type_data = new WP_Query( $args );
 			while($post_type_data->have_posts()):
@@ -38,7 +38,8 @@ if($wl_theme_options['blog_title'] !='') { ?>
 				<?php if(get_the_tag_list() != '') { ?>
 				<p class="enigma_tags"><?php the_tags('Tags :&nbsp;', '', '<br />'); ?></p>
 				<?php } ?>
-				fa fa-clock-o				<a href="<?php the_permalink(); ?>" class="enigma_blog_read_btn"><i class="fa fa-plus-circle"></i><?php _e('Read More','enigma'); ?></a>
+				<?php the_excerpt( __( 'Read More' , 'enigma' ) ); ?>
+				<a href="<?php the_permalink(); ?>" class="enigma_blog_read_btn"><i class="fa fa-plus-circle"></i><?php _e('Read More','enigma'); ?></a>
 				<div class="enigma_blog_thumb_footer">
 					<ul class="enigma_blog_thumb_date">
 						<li><i class="fa fa-user"></i><a href="<?php echo get_author_posts_url( get_the_author_meta( 'ID' ) ); ?>"><?php echo get_the_author(); ?></a></li>
